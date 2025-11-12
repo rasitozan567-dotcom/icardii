@@ -1,39 +1,38 @@
 body{
-    background-color: rgb(132, 39, 39);
-}
-
-.header{
-
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-.profil-card{
-    margin: 30px auto;
-      width: 50px;
-      height: 25vh;
- box-shadow: 20px;
-width: 200px;
-display: block ;
-gap: 20px;
+background-color: gold;
+display: flex;
+justify-content: center;
 align-items: center;
-justify-content: center;
-text-align: center;
-margin-left: auto;
-margin-right: auto;
+min-height: 100vh;
 }
-.card-img{
-    width: 150px; height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    align-items: center;
-justify-content: center;
-display: block;
+.icardi-card{
+width: 320px;
 text-align: center;
-margin-left: auto;
-margin-right: auto;
+background-color: white;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+padding: 25px;
+
+}
+img{
+width: 150px;
+height: 150px;
+border-radius: 50%;
+border: 4px solid #ffcc00;
+
+}
+button{
+color: gold;
+background-color: gold;
+margin-bottom: 10px;
+padding: 10px 20px;
+border: none;
 }
 
-h1{
-    color: white;
+
+.action-are a i {  
+color: red;
+text-decoration: none;
+    margin: 0 10px;
+    margin-bottom: 10px;
+
 }
