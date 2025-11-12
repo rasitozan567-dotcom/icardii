@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(132, 39, 39);
+}
+
+.header{
+
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.profil-card{
+    margin: 30px auto;
+      width: 50px;
+      height: 25vh;
+ box-shadow: 20px;
+width: 200px;
+display: block ;
+gap: 20px;
+align-items: center;
+justify-content: center;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+.card-img{
+    width: 150px; height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    align-items: center;
+justify-content: center;
+display: block;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+h1{
+    color: white;
+}
